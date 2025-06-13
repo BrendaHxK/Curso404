@@ -1,11 +1,16 @@
-import "./App.css";
-import Text from "./components/ui/Text";
-
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import Card from "./components/Card.jsx";
 function App() {
   return (
-    <>
-      <Text>Hola</Text>
-    </>
+    <div style={{display: "flex", width: "100vw", flexDirection: "column"}}>
+        <Navbar />
+
+      <div className="Cards">
+          <Card/>
+      </div>
+        <Footer style={{display: "flex", width: "100vw", flexDirection: "column"}}/>
+    </div>
   );
 }
 
