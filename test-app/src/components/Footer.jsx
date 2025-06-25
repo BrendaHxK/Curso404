@@ -3,8 +3,11 @@ const FooterStyles = {
     display: "flex",
       justifyContent: "space-evenly",
       width: '100%',
-      border:'1px solid #00FF00',
-      marginBottom: "20px"
+      marginBottom: "20px",
+      backgroundColor: "#685762",
+      color: "#FFFFFF",
+      a: "unset"
+      
 }
 function Footer () {
     return (
